@@ -372,14 +372,14 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 370px) {
     #header {
-        height: 700px;
+        height: 550px;
         width: 100%;
     }
     .background {
         top: 0px;
-        height: 100%;
+        height: 30%;
         width: 100%;
         background-image: url("ảnh\ lớp.jpg");
         background-position: 0%;
@@ -390,14 +390,14 @@ body::-webkit-scrollbar-thumb {
         align-items: center;
     }
     .div-avatar {
-        height: 25%;
+        height: 30%;
         width: 100%;
         justify-content: start;
     }
     .border-avatar {
-        height: 150px;
-        width: 150px;
-        margin-left: 40px;
+        height: 80px;
+        width: 80px;
+        margin-left: 20px;
     }
     .div-name-app {
         height: 60%;
@@ -413,6 +413,7 @@ body::-webkit-scrollbar-thumb {
         justify-content: start;
         margin-left: 40px;
         margin-bottom: 0px;
+        color: #000000;
     }
     .div-app {
         height: 90%;
