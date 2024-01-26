@@ -372,7 +372,7 @@ body::-webkit-scrollbar-thumb {
     }
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 320px) {
     #header {
         height: 550px;
         width: 100%;
